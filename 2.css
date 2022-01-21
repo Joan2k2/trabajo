@@ -1,0 +1,44 @@
+
+
+ img {
+  width: 150px;
+  height: 250px;
+}
+
+
+#imagen1:hover {
+  width: 800px;
+  height: 800px;
+
+  filter: grayscale();
+}
+
+#imagen2:hover {
+  width: 800px;
+  height: 800px;
+
+  transition: width 6s, height 6s ;
+}
+
+#imagen3:hover {
+  transition: 2s;
+  transform: rotate(-360deg) translate(200px, 200px)
+}
+#imagen4:hover {
+  width: 70px;
+  height: 70px;
+
+  transition: width 6s, height 6s ;
+}
+
+#imagen5:hover {
+
+padding-left:100%;
+    transition:all 10;
+    -webkit-transition:all 10s;
+    transition-timing-function:cubic-bezier(.2,1.75,1,-0.17);
+    -webkit-transition-timing-function:cubic-bezier(.2,1.75,1,-0.17);
+  
+}
+
+ 
